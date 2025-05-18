@@ -8,12 +8,10 @@
 		bc
 		gnumake
     (python3.withPackages (ps: with ps; [ requests ]))
-
     cmake
 
-
     #ide
-    steam-run-free
+    #steam-run-free
 
 		#cli utils
 		fastfetch
@@ -26,6 +24,7 @@
     #vulkan
     vulkan-loader
     vulkan-tools
+    libva
 
 		#vpn
 		unstable.legacyPackages.${pkgs.system}.amnezia-vpn
@@ -33,10 +32,14 @@
     #gui
     feh
     mpv
-
-		#obs
+    scrcpy
 		ffmpeg-full
 		obs-studio
+    amberol
+    filezilla
+
+    #wayland
+    woomer
 
     #explorers
     xarchiver

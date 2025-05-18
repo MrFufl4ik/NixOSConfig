@@ -74,6 +74,9 @@
         #print
         ", PRINT, exec, $printrg"
         "SHIFT, PRINT, exec, $printfull"
+        
+        #woomer
+        ", SCROLL_LOCK, exec, woomer"
 
         #waybar
         "$mainMod, B, exec, pkill -SIGUSR1 waybar"
@@ -94,6 +97,7 @@
       windowrule = [
         "float, ^(feh)$"
         "float, ^(mpv)$"
+        "noanim, title:^(woomer)$"
       ];
 	
 			decoration = {

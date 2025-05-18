@@ -4,7 +4,7 @@
     ./hardware-configuration.nix 
     ./packages.nix 
     ./modules/bootstrap.nix
-	];
+  ];
 
   networking.hostName = "nixos";
   time.timeZone = "Asia/Omsk";

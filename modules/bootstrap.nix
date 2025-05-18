@@ -6,11 +6,15 @@
 
     ./console.nix
     ./nixvim/nixvim.nix
+    ./emacs.nix
 		
     ./user.nix
     ./openssh.nix
     ./amneziavpn.nix
     ./env.nix
+
+    ./steam.nix
+    ./virtualbox.nix
 
     #explorer
     ./thunar.nix
