@@ -41,7 +41,7 @@
 		obs-studio
     amberol
     filezilla
-    qbittorent
+    qbittorrent
 
     #wayland
     woomer
