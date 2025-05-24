@@ -1,5 +1,5 @@
 {pkgs, unstable, ...}: {
-	systemd.services.amneziavpn = {
+  systemd.services.amneziavpn = {
     wantedBy = [ "multi-user.target" ];
     after = [ "network.target" ];
     serviceConfig = {

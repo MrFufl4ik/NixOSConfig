@@ -1,7 +1,7 @@
 { config, pkgs, unstable, ...}: {
 	nixpkgs.config = {
     		allowUnfree = true;
-  	};
+  };
 	environment.systemPackages = with pkgs; [
 		#coding stuff
 		git
@@ -12,6 +12,7 @@
 
     #ide
     #steam-run-free
+    emacs
 
 		#cli utils
 		fastfetch
@@ -26,6 +27,9 @@
     vulkan-tools
     libva
 
+    #video
+    #davinci-resolve
+
 		#vpn
 		unstable.legacyPackages.${pkgs.system}.amnezia-vpn
     
@@ -37,6 +41,7 @@
 		obs-studio
     amberol
     filezilla
+    qbittorent
 
     #wayland
     woomer

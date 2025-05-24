@@ -6,7 +6,6 @@
 
     ./console.nix
     ./nixvim/nixvim.nix
-    ./emacs.nix
 		
     ./user.nix
     ./openssh.nix

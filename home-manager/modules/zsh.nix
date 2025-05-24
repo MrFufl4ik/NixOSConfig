@@ -24,7 +24,7 @@
 
 			oh-my-zsh = {
 				enable = true;
-				theme = "agnoster";
+				theme = "gentoo";
 			};
 		};
 	};

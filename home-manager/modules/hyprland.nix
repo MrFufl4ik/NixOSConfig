@@ -10,6 +10,7 @@
 			"$terminal" = "alacritty";
 			"$menu" = "wofi --show drun";
 			"$explorer" = "thunar";
+      "$emacs" = "emacs";
 			"$printrg" = "hyprshot -m region -o /home/mrfufl4ik/screenshotes";
 			"$printfull" = "hyprshot -m region -o /home/mrfufl4ik/screenshotes";
 
@@ -35,7 +36,8 @@
 				"$mainMod, Return, exec, $terminal"
 				"$mainMod, d, exec, $menu"
 				"$mainMod, e, exec, $explorer"
-				"$mainMod SHIFT, f1, exit"
+        "$mainMod, q, exec, $emacs"
+        "$mainMod SHIFT, f1, exit"
 				"$mainMod, c, killactive"
         "$mainMod, v, togglefloating"
         "$mainMod, f, fullscreen"
