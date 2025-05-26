@@ -39,7 +39,7 @@
     scrcpy
 		ffmpeg-full
 		obs-studio
-    amberol
+    #amberol
     filezilla
     qbittorrent
 
