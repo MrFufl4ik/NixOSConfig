@@ -21,6 +21,8 @@
         "XCURSOR_SIZE,24"
 				"XCURSOR_THEME,Bibata-Modern-Ice"
         "QT_QPA_PLATFORM,wayland"
+        "LIBVA_DRIVER_NAME,nvidia"
+        "__GLX_VENDOR_LIBRARY_NAME,nvidia"
 			];
 
 			input = {

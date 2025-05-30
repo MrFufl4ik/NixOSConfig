@@ -7,15 +7,16 @@
       font = {
         normal = {
           family = "JetBrains Mono";
-          style = "Bold";
+          style = "SemiBold";
         };
-        size = 12.0;
+        size = 13;
+        offset.y = 2;
       };
       
       colors = {
         primary = {
           #background = "#10131c";
-          background = "#000000";
+          background = "#181818";
           foreground = "#bbc2cf";
         };
         #normal = {
@@ -39,9 +40,9 @@
         #  white = "#acb0d0";
         #};
       };
-      window = {
-        opacity = 0.5;
-      };
+      #window = {
+      #  opacity = 0.5;
+      #};
     };
   };
 }

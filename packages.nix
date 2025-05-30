@@ -21,11 +21,18 @@
 		imagemagick
     dex
 		cava
+    fd
+    jdk21_headless
+    appimage-run
+    rcon
 
     #vulkan
     vulkan-loader
     vulkan-tools
     libva
+
+    #minecraft
+    prismlauncher
 
     #video
     #davinci-resolve

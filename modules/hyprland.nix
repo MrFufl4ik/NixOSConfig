@@ -23,9 +23,9 @@
 	hardware.nvidia = {
     		modesetting.enable = true;
     		open = false;
-    		nvidiaSettings = true;
         powerManagement.enable = true;
 	};
-  boot.kernelParams = [ "nvidia.NVreg_PreserveVideoMemoryAllocations=1" ];
+  
+  #boot.kernelParams = [ "nvidia.NVreg_PreserveVideoMemoryAllocations=1" ];
 
 }
