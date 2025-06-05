@@ -102,6 +102,8 @@
         "float, ^(feh)$"
         "float, ^(mpv)$"
         "noanim, title:^(woomer)$"
+        "float, title:^(Prism Launcher 9.4)$"
+        "size 595 487, title:^(Prism Launcher 9.4)$"
       ];
 	
 			decoration = {

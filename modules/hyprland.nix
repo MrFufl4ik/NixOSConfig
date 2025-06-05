@@ -24,6 +24,7 @@
     		modesetting.enable = true;
     		open = false;
         powerManagement.enable = true;
+        package = config.boot.kernelPackages.nvidiaPackages.beta;
 	};
   
   #boot.kernelParams = [ "nvidia.NVreg_PreserveVideoMemoryAllocations=1" ];
